@@ -6,7 +6,7 @@
 /*   By: bwaegene <brice.wge@gmail.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/07/11 01:53:08 by bwaegene          #+#    #+#             */
-/*   Updated: 2016/07/11 11:21:44 by bwaegene         ###   ########.fr       */
+/*   Updated: 2016/07/11 17:18:53 by bwaegene         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	ft_putnbr(int nb)
 		ft_putchar('-');
 		nb *= -1;
 	}
-	if (nb < 9 && nb >= 0)
+	if (nb >= 0 && nb <= 9)
 		ft_putchar(nb + '0');
 	else
 	{
