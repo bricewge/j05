@@ -6,7 +6,7 @@
 /*   By: bwaegene <brice.wge@gmail.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/07/11 16:48:52 by bwaegene          #+#    #+#             */
-/*   Updated: 2016/07/11 22:47:18 by bwaegene         ###   ########.fr       */
+/*   Updated: 2016/07/12 09:29:27 by bwaegene         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,5 +20,6 @@ char	*ft_strcpy(char *dest, char *src)
 		dest[i] = src[i];
 		i++;
 	}
+	dest[i] = '\0';
 	return (dest);
 }
